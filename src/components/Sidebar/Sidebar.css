@@ -1,0 +1,9 @@
+.sidebar {
+    width: 300px;
+    background-color: grey;
+    display: block !important;
+}
+
+.sidebar .nav {
+    flex-direction: column !important;
+}
