@@ -38,7 +38,7 @@ function Sidebar() {
         <nav className="sidebar" id="dashboardSidebar">
             <ul className='nav'>
             {sidebarTitles.map((sidebarItem) => {
-                return <SidebarItem item={sidebarItem} key={sidebarItem}/>;
+                return <SidebarItem item={sidebarItem} key={sidebarItem.title}/>;
             })}
             </ul>
         </nav>
