@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
+import RightContainer from './components/RightContainer/RightContainer';
 import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
 
       <div className='container-fluid shelterContainer'>
           <Sidebar />
-          <div className="mainPanel">AA</div>
+          <RightContainer />
       </div>
 
     </div>
