@@ -1,5 +1,6 @@
 import './Sidebar.css';
-import SidebarItem from './SidebarItem';
+import SidebarItem from './SidebarItem/SidebarItem';
+import ToggleButton from './ToggleButton/ToggleButton';
 
 const sidebarTitles = [
     {
@@ -35,12 +36,13 @@ const sidebarTitles = [
 function Sidebar() {
   return (
     <>
-        <nav className="sidebar" id="dashboardSidebar">
+        <nav className="sidebar collapse" id="dashboardSidebar">
             <ul className='nav'>
             {sidebarTitles.map((sidebarItem) => {
                 return <SidebarItem item={sidebarItem} key={sidebarItem.title}/>;
             })}
             </ul>
+            <ToggleButton />
         </nav>
     </>
   );
