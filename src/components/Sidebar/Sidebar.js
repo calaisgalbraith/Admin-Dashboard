@@ -31,18 +31,18 @@ const sidebarTitles = [
       "title": 'About',
       'value': 'about'
     }
-  ]
+]
 
-function Sidebar() {
+function Sidebar({ clickFunc }) {
   return (
     <>
-        <nav className="sidebar collapse" id="dashboardSidebar">
+        <nav className="sidebar" id="dashboardSidebar">
             <ul className='nav'>
             {sidebarTitles.map((sidebarItem) => {
-                return <SidebarItem item={sidebarItem} key={sidebarItem.title}/>;
+                return <SidebarItem item={sidebarItem} key={sidebarItem.title} handleClick={clickFunc}/>;
             })}
             </ul>
-            <ToggleButton />
+            {/* <ToggleButton /> */}
         </nav>
     </>
   );

@@ -1,9 +1,9 @@
 import './SidebarItem.css';
 
-function SidebarItem({ item }) {
+function SidebarItem({ item, handleClick }) {
   return (
     <> 
-        <li className='nav-item'>
+        <li className='nav-item' sidebarvalue={item.value} onClick={handleClick}>
             {item.title}
         </li>
     </>
