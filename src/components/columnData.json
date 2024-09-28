@@ -1,0 +1,150 @@
+[
+    {
+        "value": "default",
+        "data": []
+    },
+    {
+        "value": "inventory",
+        "data": [
+            { "title": "Item", "field": "item" },
+            { "title": "Quantity", "field": "quantity" },
+            { "title": "Notes", "field": "notes" }
+        ]
+    },
+    {
+        "value": "dogs",
+        "data": [
+        { "title": "Name", "field": "name" },
+        { "title": "Breed", "field": "breed" },
+        { "title": "Color", "field": "color" },
+        { "title": "Age", "field": "age", "width": 75 },
+        { "title": "Intake Date", "field": "intakeDate" },
+        { "title": "Small Children", "field": "smallChildren", "width": 140, "formatter":"tickCross",
+            "formatterParams":{
+                "allowEmpty":true,
+                "allowTruthy":true,
+                "tickElement":"<i class='bi bi-check'></i>",
+                "crossElement":"<i class='bi bi-x'></i>"
+            }
+        },
+        { "title": "Cats", "field": "cats", "width": 70, "formatter": "tickCross",
+            "formatterParams":{
+                "allowEmpty":true,
+                "allowTruthy":true,
+                "tickElement":"<i class='bi bi-check'></i>",
+                "crossElement":"<i class='bi bi-x'></i>"
+            }
+        },
+        { "title": "Other Dogs", "field": "otherDogs", "width": 116, "formatter": "tickCross",
+            "formatterParams":{
+                "allowEmpty":true,
+                "allowTruthy":true,
+                "tickElement":"<i class='bi bi-check'></i>",
+                "crossElement":"<i class='bi bi-x'></i>"
+            }
+        },
+        { "title": "House Trained", "field": "houseTrained", "formatter": "tickCross",
+            "formatterParams":{
+                "allowEmpty":true,
+                "allowTruthy":true,
+                "tickElement":"<i class='bi bi-check'></i>",
+                "crossElement":"<i class='bi bi-x'></i>"
+            }
+        }
+        ]
+    },
+    {
+        "value": "cats",
+        "data": [
+            { "title": "Name", "field": "name" },
+            { "title": "Breed", "field": "breed" },
+            { "title": "Color", "field": "color" },
+            { "title": "Age", "field": "age", "width": 75 },
+            { "title": "Intake Date", "field": "intakeDate" },
+            { "title": "Small Children", "field": "smallChildren", "width": 140, "formatter":"tickCross",
+              "formatterParams":{
+                  "allowEmpty":true,
+                  "allowTruthy":true,
+                  "tickElement":"<i class='bi bi-check'></i>",
+                  "crossElement":"<i class='bi bi-x'></i>"
+              }
+             },
+            { "title": "Dogs", "field": "cats", "width": 70, "formatter": "tickCross",
+              "formatterParams":{
+                  "allowEmpty":true,
+                  "allowTruthy":true,
+                  "tickElement":"<i class='bi bi-check'></i>",
+                  "crossElement":"<i class='bi bi-x'></i>"
+              }
+             },
+            { "title": "Other Cats", "field": "otherDogs", "width": 116, "formatter": "tickCross",
+              "formatterParams":{
+                  "allowEmpty":true,
+                  "allowTruthy":true,
+                  "tickElement":"<i class='bi bi-check'></i>",
+                  "crossElement":"<i class='bi bi-x'></i>"
+              }
+            },
+            { "title": "Litter Trained", "field": "litterTrained", "formatter": "tickCross",
+              "formatterParams":{
+                  "allowEmpty":true,
+                  "allowTruthy":true,
+                  "tickElement":"<i class='bi bi-check'></i>",
+                  "crossElement":"<i class='bi bi-x'></i>"
+              }
+            }
+        ]
+    },
+    {
+        "value": "other",
+        "data": [
+            { "title": "Name", "field": "name" },
+            { "title": "Species", "field": "species" },
+            { "title": "Breed", "field": "breed" },
+            { "title": "Color", "field": "color" },
+            { "title": "Age", "field": "age", "width": 75 },
+            { "title": "Intake Date", "field": "intakeDate" },
+            { "title": "Notes", "field": "notes" }
+        ]
+    },
+    {
+        "value": "employees",
+        "data": [
+            { "title": "First Name", "field": "first" },
+            { "title": "Last Name", "field": "last" },
+            { "title": "Title", "field": "title" },
+            { "title": "Date Of Birth", "field": "dob" },
+            { "title": "Email", "field": "email" },
+            { "title": "Phone", "field": "phone" },
+            { "title": "Active", "field": "active", "formatter": "tickCross",
+              "formatterParams":{
+                  "allowEmpty":true,
+                  "allowTruthy":true,
+                  "tickElement":"<i class='bi bi-check'></i>",
+                  "crossElement":"<i class='bi bi-x'></i>"
+              }}
+        ]
+    },
+    {
+        "value": "volunteers",
+        "data": [
+            { "title": "First Name", "field": "first" },
+            { "title": "Last Name", "field": "last" },
+            { "title": "Title", "field": "title" },
+            { "title": "Date Of Birth", "field": "dob" },
+            { "title": "Email", "field": "email" },
+            { "title": "Phone", "field": "phone" },
+            { "title": "Active", "field": "active", "formatter": "tickCross",
+              "formatterParams":{
+                  "allowEmpty":true,
+                  "allowTruthy":true,
+                  "tickElement":"<i class='bi bi-check'></i>",
+                  "crossElement":"<i class='bi bi-x'></i>"
+              } }
+        ]
+    },
+    {
+        "value": "about",
+        "data": []
+    }
+]

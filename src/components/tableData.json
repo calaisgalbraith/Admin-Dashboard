@@ -1,0 +1,63 @@
+[
+    {
+        "value": "default",
+        "data": []
+    },
+    {
+        "value": "inventory",
+        "data": [
+            { "id":1, "item":"Paper Towels", "quantity":"40", "notes":""} ,
+            { "id":2, "item":"Puppy Pads", "quantity":"100", "notes":"" },
+            { "id":3, "item":"Litter Boxes", "quantity":"20", "notes":"Clean daily" },
+            { "id":4, "item":"Litter Bags", "quantity":"15", "notes":"**Low Stock**" },
+            { "id":5, "item":"Crickets", "quantity":"111", "notes":"Do not let loose" },
+            { "id":6, "item":"Dog Food", "quantity":"25", "notes":"Dry food" },
+            { "id":7, "item":"Cat Food", "quantity":"36", "notes":"Wet food" },
+            { "id":8, "item":"Bones", "quantity":"30", "notes":"One per week" },
+            { "id":9, "item":"Catnip", "quantity":"5", "notes":"**Low Stock**" },
+            { "id":10, "item":"Bird Food", "quantity":"4", "notes":"Next shipment, next Tues" },
+            { "id":11, "item":"Dog Treats", "quantity":"50", "notes":"One per day" },
+            { "id":12, "item":"Cat Treats", "quantity":"45", "notes":"One per day" },
+            { "id":13, "item":"Blankets", "quantity":"30", "notes":"Ask for donations" },
+            { "id":14, "item":"Dog Toys", "quantity":"25", "notes":"Check quality" },
+            { "id":15, "item":"Cat Toys", "quantity":"15", "notes":"Need cleaning" },
+            { "id":16, "item":"Bird Toys", "quantity":"11", "notes":"" }
+        ]
+    },
+    {
+        "value": "dogs",
+        "data": [
+            { "id":1,"name":"Jumper", "breed":"Chihuahua", "age":"3", "intakeDate": "1/11/2024", "smallChildren": true, "cats": true, "otherDogs": true, "houseTrained": false, "notes": "Smelly" } ,
+            { "id":2, "name":"Julep", "breed":"Shepard Mix", "age":"9", "intakeDate": "3/24/2023", "smallChildren": true, "cats": false, "otherDogs": true, "houseTrained": true, "notes": "Loves cuddles" }
+        ]
+    },
+    {
+        "value": "cats",
+        "data": [
+            { "id":1,"name":"Noche", "breed":"short hair", "age":"N/A", "intakeDate": "1/10/2024", "smallChildren": true, "dogs": true, "otherCats": true, "litterTrained": true, "notes": "Loves to play" } ,
+            { "id":2, "name":"Ginger", "breed":"Main Coone", "age":"1", "intakeDate": "5/15/2023", "smallChildren": false, "dogs": false, "otherCats": true, "litterTrained": true, "notes": "Easy Temperment" }
+        ]
+    },
+    {
+        "value": "other",
+        "data": [
+            { "id":1, "name":"Zulu", "species": "Bird", "breed": "African Grey Parrot", "color": "Grey", "age":"19", "intakeDate": "5/15/2023", "notes":"notes" }
+        ]
+    },
+    {
+        "value": "employees",
+        "data": [
+            { "id":1, "first":"Jane", "last":"Doe", "title":"Kennel Tech", "dob":"2/26/1997", "email": "janedoe@gmail.com", "phone": "555-555-9100", "active": true}
+        ]
+    },
+    {
+        "value": "volunteers",
+        "data": [
+            { "id":1, "first":"John", "last":"Doe", "title":"Dog Walker", "dob":"3/17/1995", "email": "johndoe@gmail.com", "phone": "555-555-1989", "active": false}
+        ]
+    },
+    {
+        "value": "about",
+        "data": []
+    }
+]

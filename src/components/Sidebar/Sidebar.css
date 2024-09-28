@@ -7,3 +7,7 @@
 .sidebar .nav {
     flex-direction: column !important;
 }
+
+.collapse:not(.show) {
+    display: none !important;
+}
