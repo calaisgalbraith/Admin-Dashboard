@@ -1,7 +1,7 @@
 import './Navbar.css';
 function Navbar() {
   return (
-    <>
+    <header>
         <nav className="navbar bg-dark fixed-top" id="dashboardNavbar">
         <div className="container-fluid">
             <a className="navbar-brand">Paws Shelter</a>
@@ -10,7 +10,7 @@ function Navbar() {
             </div>
         </div>
         </nav>
-    </>
+    </header>
   );
 }
 
