@@ -1,10 +1,11 @@
 import './SidebarItem.css';
+import { Link } from "react-router-dom";
 
-function SidebarItem({ item, handleClick }) {
+function SidebarItem({ item }) {
   return (
     <> 
-        <li className='nav-item' sidebarvalue={item.value} onClick={handleClick}>
-            {item.title}
+        <li className='nav-item'>
+            <Link to={item.linkTo}>{item.title}</Link>
         </li>
     </>
   );

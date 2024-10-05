@@ -1,35 +1,41 @@
 import './Sidebar.css';
 import SidebarItem from './SidebarItem/SidebarItem';
-import ToggleButton from './ToggleButton/ToggleButton';
 
 const sidebarTitles = [
     {
       "title": 'Inventory',
-      'value': 'inventory'
+      'value': 'inventory',
+      "linkTo": "/inventory"
     },
     {
       "title" : 'Dogs',
-      'value': 'dogs'
+      'value': 'dogs',
+       "linkTo": "/dogs"
     },
     {
       "title": 'Cats',
-      'value': 'cats'
+      'value': 'cats',
+      "linkTo": "/cats"
     },
     {
       "title": 'Other',
-      'value': 'other'
+      'value': 'other',
+      "linkTo": "/other"
     },
     {
       "title": 'Employees',
-      'value': 'employees'
+      'value': 'employees',
+      "linkTo": "/employees"
     },
     {
       "title": 'Volunteers',
-      'value': 'volunteers'
+      'value': 'volunteers',
+      "linkTo": "/volunteers"
     },
     {
       "title": 'About',
-      'value': 'about'
+      'value': 'about',
+      'linkTo': '/about'
     }
 ]
 
@@ -39,7 +45,7 @@ function Sidebar({ clickFunc }) {
         <nav className="sidebar" id="dashboardSidebar">
             <ul className='nav'>
             {sidebarTitles.map((sidebarItem) => {
-                return <SidebarItem item={sidebarItem} key={sidebarItem.title} handleClick={clickFunc}/>;
+                return <SidebarItem item={sidebarItem} key={sidebarItem.title}/>;
             })}
             </ul>
             {/* <ToggleButton /> */}
