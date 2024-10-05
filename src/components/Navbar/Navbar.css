@@ -1,8 +1,19 @@
 #dashboardNavbar {
-    color: white;
+    color: #e0e0e0;
     background-color: #1f2a40 !important;
 }
 
-.navbar-brand {
-    color: white !important;
+#dashboardNavbar a {
+    color: #e0e0e0 !important;
+    text-decoration: none !important;
+    margin-left: 10px;
+}
+
+#dashboardNavbar a:hover {
+    text-decoration: underline !important;
+}
+
+#dashboardNavbar svg {
+    margin-bottom: 5px;
+    margin-right: 10px;
 }
