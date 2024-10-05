@@ -44,6 +44,7 @@ function Sidebar({ clickFunc }) {
     <>
         <nav className="sidebar" id="dashboardSidebar">
             <ul className='nav'>
+            <li className="nav-item profileInfo">Profile Item</li>
             {sidebarTitles.map((sidebarItem) => {
                 return <SidebarItem item={sidebarItem} key={sidebarItem.title}/>;
             })}
