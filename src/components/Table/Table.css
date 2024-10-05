@@ -1,3 +1,11 @@
-.tableContainer {
-    width: 100%;
+.ag-cell {
+    text-align: left;
+}
+
+.ag-checkbox-input-wrapper.ag-checked::after {
+    color: #212529 !important;
+}
+
+.ag-checkbox-cell {
+    justify-content: center;
 }

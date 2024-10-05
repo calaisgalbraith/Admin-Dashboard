@@ -11,3 +11,11 @@
   min-height: calc(100vh);
 }
 
+main {
+  width: 100%;
+}
+
+body {
+  background-color: #1f2a40 !important;
+}
+
