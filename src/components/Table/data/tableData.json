@@ -27,15 +27,15 @@
     {
         "value": "dogs",
         "data": [
-            { "id":1,"name":"Jumper", "breed":"Chihuahua", "age":"3", "intakeDate": "1/11/2024", "smallChildren": true, "cats": true, "otherDogs": true, "houseTrained": false, "notes": "Smelly" } ,
-            { "id":2, "name":"Julep", "breed":"Shepard Mix", "age":"9", "intakeDate": "3/24/2023", "smallChildren": true, "cats": false, "otherDogs": true, "houseTrained": true, "notes": "Loves cuddles" }
+            { "id":1,"name":"Jumper", "breed":"Chihuahua", "color": "Tan", "age":"3", "intakeDate": "1/11/2024", "smallChildren": true, "cats": true, "otherDogs": true, "houseTrained": false, "notes": "Smelly" } ,
+            { "id":2, "name":"Julep", "breed":"Shepard Mix", "color": "Brown", "age":"9", "intakeDate": "3/24/2023", "smallChildren": true, "cats": false, "otherDogs": true, "houseTrained": true, "notes": "Loves cuddles" }
         ]
     },
     {
         "value": "cats",
         "data": [
-            { "id":1,"name":"Noche", "breed":"short hair", "age":"N/A", "intakeDate": "1/10/2024", "smallChildren": true, "dogs": true, "otherCats": true, "litterTrained": true, "notes": "Loves to play" } ,
-            { "id":2, "name":"Ginger", "breed":"Main Coone", "age":"1", "intakeDate": "5/15/2023", "smallChildren": false, "dogs": false, "otherCats": true, "litterTrained": true, "notes": "Easy Temperment" }
+            { "id":1,"name":"Noche", "breed":"short hair", "color": "Black", "age":"N/A", "intakeDate": "1/10/2024", "smallChildren": true, "dogs": true, "otherCats": true, "litterTrained": true, "notes": "Loves to play" } ,
+            { "id":2, "name":"Ginger", "breed":"Main Coone", "color": "Orange", "age":"1", "intakeDate": "5/15/2023", "smallChildren": false, "dogs": false, "otherCats": true, "litterTrained": true, "notes": "Easy Temperment" }
         ]
     },
     {

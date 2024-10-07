@@ -2,73 +2,73 @@
     {
         "value": "inventory",
         "data": [
-            { "field": "item" },
-            { "field": "quantity" },
-            { "field": "notes" }
+            { "field": "item", "lockPosition": "left", "flex": 1  },
+            { "field": "quantity", "lockPosition": "left", "flex": 1  },
+            { "field": "notes", "lockPosition": "left", "flex": 1  }
         ]
     },
     {
         "value": "dogs",
         "data": [
-            { "field": "name" },
-            { "field": "breed" },
-            { "field": "color" },
-            { "field": "age"},
-            { "field": "intakeDate" },
-            { "field": "smallChildren" },
-            { "field": "cats" },
-            { "field": "otherDogs" },
-            { "field": "houseTrained" }
+            { "field": "name", "lockPosition": "left", "flex": 1 },
+            { "field": "breed", "lockPosition": "left", "flex": 1  },
+            { "field": "color", "lockPosition": "left", "flex": 1  },
+            { "field": "age", "lockPosition": "left", "width": 66 },
+            { "field": "intakeDate", "lockPosition": "left", "width": 110 },
+            { "field": "smallChildren", "lockPosition": "left", "width": 130 },
+            { "field": "cats", "lockPosition": "left", "width": 70  },
+            { "field": "otherDogs", "lockPosition": "left", "width": 110  },
+            { "field": "houseTrained", "lockPosition": "left", "width": 133  }
         ]
     },
     {
         "value": "cats",
         "data": [
-            { "field": "name" },
-            { "field": "breed" },
-            { "field": "color" },
-            { "field": "age" },
-            { "field": "intakeDate" },
-            { "field": "smallChildren" },
-            { "field": "cats" },
-            { "field": "otherDogs" },
-            { "field": "litterTrained" }
+            { "field": "name", "lockPosition": "left", "flex": 1  },
+            { "field": "breed", "lockPosition": "left", "flex": 1  },
+            { "field": "color", "lockPosition": "left", "flex": 1  },
+            { "field": "age", "lockPosition": "left", "width": 66 },
+            { "field": "intakeDate", "lockPosition": "left", "width": 110 },
+            { "field": "smallChildren", "lockPosition": "left", "width": 130 },
+            { "field": "otherCats", "lockPosition": "left", "width": 112  },
+            { "field": "dogs", "lockPosition": "left", "width": 76  },
+            { "field": "litterTrained","lockPosition": "left", "width": 133  }
         ]
     },
     {
         "value": "other",
         "data": [
-            { "field": "name" },
-            { "field": "species" },
-            { "field": "breed" },
-            { "field": "color" },
-            { "field": "age"},
-            { "field": "intakeDate" },
-            { "field": "notes" }
+            { "field": "name", "lockPosition": "left", "flex": 1 },
+            { "field": "species", "lockPosition": "left", "flex": 1  },
+            { "field": "breed", "lockPosition": "left", "flex": 1  },
+            { "field": "color", "lockPosition": "left", "flex": 1  },
+            { "field": "age", "lockPosition": "left", "width": 66 },
+            { "field": "intakeDate", "lockPosition": "left", "width": 110 },
+            { "field": "notes", "lockPosition": "left", "flex": 1  }
         ]
     },
     {
         "value": "employees",
         "data": [
-            { "field": "first" },
-            { "field": "last" },
-            { "field": "title" },
-            { "field": "dob" },
-            { "field": "email" },
-            { "field": "phone" },
-            { "field": "active" }
+            { "field": "first", "lockPosition": "left", "flex": 1 },
+            { "field": "last", "lockPosition": "left", "flex": 1  },
+            { "field": "title", "lockPosition": "left", "flex": 1  },
+            { "field": "dob", "lockPosition": "left", "width": 110 },
+            { "field": "email", "lockPosition": "left", "flex": 1  },
+            { "field": "phone", "lockPosition": "left", "width": 131  },
+            { "field": "active", "lockPosition": "left", "width": 80 }
         ]
     },
     {
         "value": "volunteers",
         "data": [
-            { "field": "first" },
-            { "field": "last" },
-            { "field": "title" },
-            { "field": "dob" },
-            { "field": "email" },
-            { "field": "phone" },
-            { "field": "active" }
+            { "field": "first", "lockPosition": "left", "flex": 1  },
+            { "field": "last", "lockPosition": "left", "flex": 1  },
+            { "field": "title", "lockPosition": "left", "flex": 1  },
+            { "field": "dob", "lockPosition": "left", "width": 110 },
+            { "field": "email", "lockPosition": "left", "flex": 1  },
+            { "field": "phone", "lockPosition": "left", "width": 131  },
+            { "field": "active", "lockPosition": "left", "width": 80 }
         ]
     }
 ]

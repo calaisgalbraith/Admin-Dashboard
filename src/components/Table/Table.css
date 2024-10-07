@@ -1,9 +1,27 @@
+/* Table Title */
+.tableTitle {
+    font-size: 50px;
+    color: #e0e0e0;
+    font-weight: bold;
+}
+
+/* Tabel Styling */
+.ag-theme-quartz {
+    margin: auto !important;
+    --ag-background-color: #1f2a40 !important;
+    --ag-foreground-color: #dcddde !important;
+}
+
+.ag-header {
+    background-color: #3e4396 !important;
+}
+
 .ag-cell {
     text-align: left;
 }
 
 .ag-checkbox-input-wrapper.ag-checked::after {
-    color: #212529 !important;
+    color: #b8eade !important
 }
 
 .ag-checkbox-cell {

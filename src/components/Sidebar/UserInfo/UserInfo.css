@@ -1,0 +1,10 @@
+.profileInfo {
+    color: #e0e0e0;
+    background-color: #3a3f8d;
+    padding: 15px;
+}
+
+.profileInfo svg {
+    margin-bottom: 5px;
+    font-size: 50px;
+}
