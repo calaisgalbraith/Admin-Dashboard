@@ -70,5 +70,17 @@
             { "field": "phone", "lockPosition": "left", "maxWidth": 131  },
             { "field": "active", "lockPosition": "left", "maxWidth": 80 }
         ]
+    },
+    {
+        "value": "fosters",
+        "data": [
+            { "field": "first", "lockPosition": "left", "flex": 1  },
+            { "field": "last", "lockPosition": "left", "flex": 1  },
+            { "field": "title", "lockPosition": "left", "flex": 1  },
+            { "field": "dob", "lockPosition": "left", "maxWidth": 110 },
+            { "field": "email", "lockPosition": "left", "flex": 1  },
+            { "field": "phone", "lockPosition": "left", "maxWidth": 131  },
+            { "field": "active", "lockPosition": "left", "maxWidth": 80 }
+        ]
     }
 ]

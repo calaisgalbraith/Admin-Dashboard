@@ -57,6 +57,12 @@
         ]
     },
     {
+        "value": "fosters",
+        "data": [
+            { "id":1, "first":"John", "last":"Doe", "title":"Dog Walker", "dob":"3/17/1995", "email": "johndoe@gmail.com", "phone": "555-555-1989", "active": false}
+        ]
+    },
+    {
         "value": "about",
         "data": []
     }
