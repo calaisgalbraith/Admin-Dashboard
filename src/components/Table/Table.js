@@ -3,7 +3,7 @@ import columnData from './data/columnData.json'
 import tableData from './data/tableData.json'
 import { AgGridReact } from 'ag-grid-react'; // React Data Grid Component
 
-function Table({ type }) {
+function Table({ type, title }) {
   function getColumns (type) { // get colums for table
     return columnData.find(obj => obj.value === type).data
   }
@@ -23,7 +23,7 @@ function Table({ type }) {
 
   return (
     <>
-      <div className="tableTitle">{type}</div>
+      <div className="tableTitle">{title}</div>
       <div className="ag-theme-quartz" style={{ height: '85% ', width: '95%' }}>
         <AgGridReact
           rowData={getData(type)}
