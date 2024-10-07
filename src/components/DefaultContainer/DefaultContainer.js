@@ -3,7 +3,7 @@ import './DefaultContainer.css'
 function DefaultContainer() {
   return (
     <div id="defaultContainer">
-      Welcome back System Admin!
+      <span>Welcome back, System Admin!</span>
     </div>
   );
 }
