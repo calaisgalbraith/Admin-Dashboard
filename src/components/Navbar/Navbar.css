@@ -3,14 +3,10 @@
     background-color: #1f2a40 !important;
 }
 
-#dashboardNavbar a {
+#dashboardNavbar .navbar-brand{
     color: #e0e0e0 !important;
     text-decoration: none !important;
     margin-left: 10px;
-}
-
-#dashboardNavbar a:hover {
-    text-decoration: underline !important;
 }
 
 #dashboardNavbar svg {
