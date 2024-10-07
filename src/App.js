@@ -15,12 +15,12 @@ function App() {
           <main>
             <Routes>
               <Route path="/" element={<DefaultContainer />} />
-              <Route path="/inventory" element={<Table type={'inventory'}/>} />
-              <Route path="/dogs" element={<Table type={'dogs'}/>} />
-              <Route path="/cats" element={<Table type={'cats'}/>} />
-              <Route path="/other" element={<Table type={'other'}/>} />
-              <Route path="/employees" element={<Table type={'employees'}/>} />
-              <Route path="/volunteers" element={<Table type={'volunteers'}/>} />
+              <Route path="/inventory" element={<Table type={'inventory'} title={'Inventory'}/>} />
+              <Route path="/dogs" element={<Table type={'dogs'} title={'Dogs'}/>} />
+              <Route path="/cats" element={<Table type={'cats'} title={'Cats'}/>} />
+              <Route path="/other" element={<Table type={'other'} title={'Other'}/>} />
+              <Route path="/employees" element={<Table type={'employees'} title={'Employees'}/>} />
+              <Route path="/volunteers" element={<Table type={'volunteers'} title={'Volunteers'}/>} />
               <Route path="/about" element={<AboutContainer />} />
             </Routes>
           </main>
