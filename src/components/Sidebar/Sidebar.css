@@ -8,17 +8,3 @@
 .sidebar .nav {
     flex-direction: column !important;
 }
-
-.collapse:not(.show) {
-    display: none !important;
-}
-
-.sidebar a {
-    color: white;
-    text-decoration: none;
-}
-
-.sidebar .profileInfo {
-    color: white;
-    background-color: #3a3f8d;
-}

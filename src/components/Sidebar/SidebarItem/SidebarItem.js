@@ -5,7 +5,10 @@ function SidebarItem({ item }) {
   return (
     <> 
         <li className='nav-item'>
-            <Link to={item.linkTo}>{item.title}</Link>
+            <Link to={item.linkTo}>
+              <span className='sidebarIcon'>{item.icon}</span>
+              <span className='sidebarTitle'>{item.title}</span>
+            </Link>
         </li>
     </>
   );
