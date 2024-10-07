@@ -1,3 +1,31 @@
 .nav-item {
     line-height: 45px;
+    padding: 5px 35px 5px 30px !important;
+}
+
+.nav-item a {
+    color: #e0e0e0;
+    text-decoration: none;
+    display: flex;
+    padding: 5px 35px 5px 20px !important;
+}
+
+/* selected, #6770fa */
+
+.nav-item a:hover {
+    color: #868dfb;
+    text-decoration: underline;
+}
+
+.sidebarTitle {
+    font-size: 17px;
+}
+
+.nav-item svg {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.sidebarIcon {
+    margin-right: 10px;
 }
