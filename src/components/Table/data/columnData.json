@@ -13,12 +13,12 @@
             { "field": "name", "lockPosition": "left", "flex": 1 },
             { "field": "breed", "lockPosition": "left", "flex": 1  },
             { "field": "color", "lockPosition": "left", "flex": 1  },
-            { "field": "age", "lockPosition": "left", "width": 66 },
-            { "field": "intakeDate", "lockPosition": "left", "width": 110 },
-            { "field": "smallChildren", "lockPosition": "left", "width": 130 },
-            { "field": "cats", "lockPosition": "left", "width": 70  },
-            { "field": "otherDogs", "lockPosition": "left", "width": 110  },
-            { "field": "houseTrained", "lockPosition": "left", "width": 133  }
+            { "field": "age", "lockPosition": "left", "maxWidth": 66 },
+            { "field": "intakeDate", "lockPosition": "left", "maxWidth": 110 },
+            { "field": "smallChildren", "lockPosition": "left", "maxWidth": 130 },
+            { "field": "cats", "lockPosition": "left", "maxWidth": 70  },
+            { "field": "otherDogs", "lockPosition": "left", "maxWidth": 110  },
+            { "field": "houseTrained", "lockPosition": "left", "maxWidth": 133  }
         ]
     },
     {
@@ -27,12 +27,12 @@
             { "field": "name", "lockPosition": "left", "flex": 1  },
             { "field": "breed", "lockPosition": "left", "flex": 1  },
             { "field": "color", "lockPosition": "left", "flex": 1  },
-            { "field": "age", "lockPosition": "left", "width": 66 },
-            { "field": "intakeDate", "lockPosition": "left", "width": 110 },
-            { "field": "smallChildren", "lockPosition": "left", "width": 130 },
-            { "field": "otherCats", "lockPosition": "left", "width": 112  },
-            { "field": "dogs", "lockPosition": "left", "width": 76  },
-            { "field": "litterTrained","lockPosition": "left", "width": 133  }
+            { "field": "age", "lockPosition": "left", "maxWidth": 66 },
+            { "field": "intakeDate", "lockPosition": "left", "maxWidth": 110 },
+            { "field": "smallChildren", "lockPosition": "left", "maxWidth": 130 },
+            { "field": "otherCats", "lockPosition": "left", "maxWidth": 112  },
+            { "field": "dogs", "lockPosition": "left", "maxWidth": 76  },
+            { "field": "litterTrained","lockPosition": "left", "maxWidth": 133  }
         ]
     },
     {
@@ -42,8 +42,8 @@
             { "field": "species", "lockPosition": "left", "flex": 1  },
             { "field": "breed", "lockPosition": "left", "flex": 1  },
             { "field": "color", "lockPosition": "left", "flex": 1  },
-            { "field": "age", "lockPosition": "left", "width": 66 },
-            { "field": "intakeDate", "lockPosition": "left", "width": 110 },
+            { "field": "age", "lockPosition": "left", "maxWidth": 66 },
+            { "field": "intakeDate", "lockPosition": "left", "maxWidth": 110 },
             { "field": "notes", "lockPosition": "left", "flex": 1  }
         ]
     },
@@ -53,10 +53,10 @@
             { "field": "first", "lockPosition": "left", "flex": 1 },
             { "field": "last", "lockPosition": "left", "flex": 1  },
             { "field": "title", "lockPosition": "left", "flex": 1  },
-            { "field": "dob", "lockPosition": "left", "width": 110 },
+            { "field": "dob", "lockPosition": "left", "maxWidth": 110 },
             { "field": "email", "lockPosition": "left", "flex": 1  },
-            { "field": "phone", "lockPosition": "left", "width": 131  },
-            { "field": "active", "lockPosition": "left", "width": 80 }
+            { "field": "phone", "lockPosition": "left", "maxWidth": 131  },
+            { "field": "active", "lockPosition": "left", "maxWidth": 80 }
         ]
     },
     {
@@ -65,10 +65,10 @@
             { "field": "first", "lockPosition": "left", "flex": 1  },
             { "field": "last", "lockPosition": "left", "flex": 1  },
             { "field": "title", "lockPosition": "left", "flex": 1  },
-            { "field": "dob", "lockPosition": "left", "width": 110 },
+            { "field": "dob", "lockPosition": "left", "maxWidth": 110 },
             { "field": "email", "lockPosition": "left", "flex": 1  },
-            { "field": "phone", "lockPosition": "left", "width": 131  },
-            { "field": "active", "lockPosition": "left", "width": 80 }
+            { "field": "phone", "lockPosition": "left", "maxWidth": 131  },
+            { "field": "active", "lockPosition": "left", "maxWidth": 80 }
         ]
     }
 ]
