@@ -13,6 +13,10 @@ function Table({ type, title }) {
   }
 
   // Table settings
+  const defaultColDef = {
+    flex: 1,
+  }
+
   const autoSizeStrategy={
     type: "fitGridWidth",
   }
@@ -24,6 +28,7 @@ function Table({ type, title }) {
         <AgGridReact
           rowData={getData(type)}
           columnDefs={getColumns(type)}
+          defaultColDef={defaultColDef}
           autoSizeStrategy={autoSizeStrategy}
         />
       </div>

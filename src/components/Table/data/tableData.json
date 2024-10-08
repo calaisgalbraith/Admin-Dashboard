@@ -1,9 +1,5 @@
 [
     {
-        "value": "default",
-        "data": []
-    },
-    {
         "value": "inventory",
         "data": [
             { "id":1, "item":"Paper Towels", "quantity":"40", "notes":""} ,
@@ -27,8 +23,224 @@
     {
         "value": "dogs",
         "data": [
-            { "id":1,"name":"Jumper", "breed":"Chihuahua", "color": "Tan", "age":"3", "intakeDate": "1/11/2024", "smallChildren": true, "cats": true, "otherDogs": true, "houseTrained": false, "notes": "Smelly" } ,
-            { "id":2, "name":"Julep", "breed":"Shepard Mix", "color": "Brown", "age":"9", "intakeDate": "3/24/2023", "smallChildren": true, "cats": false, "otherDogs": true, "houseTrained": true, "notes": "Loves cuddles" }
+            { "id":1,"name":"Jumper", "breed":"Chihuahua", "color": "Tan", "age":"3", "intakeDate": "1/10/2024", "smallChildren": true, "cats": true, "otherDogs": true, "houseTrained": false, "notes": "Smelly" } ,
+            { "id":2, "name":"Julep", "breed":"Shepard Mix", "color": "Brown", "age":"9", "intakeDate": "3/24/2023", "smallChildren": true, "cats": false, "otherDogs": true, "houseTrained": true, "notes": "Loves cuddles" },
+            {
+                "name": "Sam",
+                "breed": "Mixed",
+                "color": "Black",
+                "age": "4",
+                "intakeDate": "7/11/2024",
+                "smallChildren": true,
+                "cats": true,
+                "otherDogs": false,
+                "houseTrained": true,
+                "notes": "Loves walks"
+            },
+            {
+                "name": "Dorothy",
+                "breed": "Labrador",
+                "color": "Tan",
+                "age": "10",
+                "intakeDate": "5/23/2021",
+                "smallChildren": false,
+                "cats": true,
+                "otherDogs": true,
+                "houseTrained": true,
+                "notes": ""    
+            },
+            {
+                "name": "Lucky",
+                "breed": "Beagle",
+                "color": "Tri-Color",
+                "age": "7",
+                "intakeDate": "4/23/2024",
+                "smallChildren": true,
+                "cats": true,
+                "otherDogs": false,
+                "houseTrained": true,
+                "notes": "No men"
+            },
+            {
+                "name": "Brooke",
+                "breed": "Mixed",
+                "color": "White",
+                "age": "1",
+                "intakeDate": "6/7/2024",
+                "smallChildren": false,
+                "cats": false,
+                "otherDogs": true,
+                "houseTrained": false,
+                "notes": ""
+            },
+            {
+                "name": "Nala",
+                "breed": "Shepard Mix",
+                "color": "Tan",
+                "age": "11",
+                "intakeDate": "3/4/2023",
+                "smallChildren": true,
+                "cats": true,
+                "otherDogs": false,
+                "houseTrained": true,
+                "notes": "Couch potato" 
+            },
+            {
+                "name": "Chanel",
+                "breed": "Husky",
+                "color": "Black & White",
+                "age": "3",
+                "intakeDate": "5/4/2023",
+                "smallChildren": false,
+                "cats": true,
+                "otherDogs": false,
+                "houseTrained": true,
+                "notes": "High energy"
+            },
+            {
+                "name": "Coco",
+                "breed": "Poodle",
+                "color": "Black",
+                "age": "1",
+                "intakeDate": "11/23/2023",
+                "smallChildren": true,
+                "cats": false,
+                "otherDogs": true,
+                "houseTrained": false,
+                "notes": ""
+            },
+            {
+                "name": "Penny",
+                "breed": "German Shepard",
+                "color": "Tan",
+                "age": "3 mo.",
+                "intakeDate": "1/23/2024",
+                "smallChildren": false,
+                "cats": true,
+                "otherDogs": true,
+                "houseTrained": false,
+                "notes": ""
+            },
+            {
+                "name": "Blog",
+                "breed": "Boxer",
+                "color": "Tan",
+                "age": "5",
+                "intakeDate": "5/6/2024",
+                "smallChildren": true,
+                "cats": true,
+                "otherDogs": true,
+                "houseTrained": true,
+                "notes": ""
+            },
+            {
+                "name": "Mosley",
+                "breed": "Mastiff",
+                "color": "Tan",
+                "age": "4",
+                "intakeDate": "5/8/2024",
+                "smallChildren": true,
+                "cats": false,
+                "otherDogs": false,
+                "houseTrained": true,
+                "notes": ""
+            },
+            {
+                "name": "Bizzy",
+                "breed": "Maltese",
+                "color": "White",
+                "age": "11",
+                "intakeDate": "12/22/2023",
+                "smallChildren": true,
+                "cats": true,
+                "otherDogs": true,
+                "houseTrained": true,
+                "notes": "Sweet boy"
+            },
+            {
+                "name": "Carlos",
+                "breed": "Doberman",
+                "color": "Black",
+                "age": "5",
+                "intakeDate": "1/25/2024",
+                "smallChildren": true,
+                "cats": true,
+                "otherDogs": true,
+                "houseTrained": true,
+                "notes": ""
+            },
+            {
+                "name": "Quinny",
+                "breed": "Corgi",
+                "color": "Brown & White",
+                "age": "3",
+                "intakeDate": "8/6/2023",
+                "smallChildren": false,
+                "cats": false,
+                "otherDogs": false,
+                "houseTrained": true,
+                "notes": ""
+            },
+            {
+                "name": "Zeta",
+                "breed": "Mixed",
+                "color": "Tan",
+                "age": "12",
+                "intakeDate": "10/5/2024",
+                "smallChildren": true,
+                "cats": true,
+                "otherDogs": false,
+                "houseTrained": true,
+                "notes": ""
+            },
+            {
+                "name": "Bonnie",
+                "breed": "Shiba Inu",
+                "color": "Brown & White",
+                "age": "9 mo.",
+                "intakeDate": "9/12/2024",
+                "smallChildren": true,
+                "cats": false,
+                "otherDogs": true,
+                "houseTrained": false,
+                "notes": "Easy to train"
+            },
+            {
+                "name": "Lucy",
+                "breed": "Shih Tzu",
+                "color": "White",
+                "age": "8",
+                "intakeDate": "9/19/2023",
+                "smallChildren": false,
+                "cats": true,
+                "otherDogs": true,
+                "houseTrained": true,
+                "notes": ""
+            },
+            {
+                "name": "Ollie",
+                "breed": "Mixed",
+                "color": "Black",
+                "age": "7",
+                "intakeDate": "10/10/2023",
+                "smallChildren": true,
+                "cats": false,
+                "otherDogs": false,
+                "houseTrained": true,
+                "notes": ""
+            },
+            {
+                "name": "Iggy",
+                "breed": "Mixed",
+                "color": "Red",
+                "age": "1",
+                "intakeDate": "11/7/2023",
+                "smallChildren": true,
+                "cats": false,
+                "otherDogs": true,
+                "houseTrained": false,
+                "notes": ""
+            }
         ]
     },
     {
@@ -57,7 +269,9 @@
         ]
     },
     {
-        "value": "about",
-        "data": []
+        "value": "fosters",
+        "data": [
+            { "id":1, "first":"John", "last":"Doe", "title":"Dog Walker", "dob":"3/17/1995", "email": "johndoe@gmail.com", "phone": "555-555-1989", "active": false}
+        ]
     }
 ]

@@ -21,6 +21,7 @@ function App() {
               <Route path="/other" element={<Table type={'other'} title={'Other'}/>} />
               <Route path="/employees" element={<Table type={'employees'} title={'Employees'}/>} />
               <Route path="/volunteers" element={<Table type={'volunteers'} title={'Volunteers'}/>} />
+              <Route path="/fosters" element={<Table type={'fosters'} title={'Fosters'}/>} />
               <Route path="/about" element={<AboutContainer />} />
             </Routes>
           </main>
