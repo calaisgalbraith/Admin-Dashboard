@@ -1,0 +1,46 @@
+#aboutContainer {
+    color: #e0e0e0;
+    height: 100%;
+}
+
+#shelterInfo, #usefulInfo {
+    padding: 20px;
+}
+
+#shelterInfo .row {
+    height: 100%;
+}
+
+#shelterInfo .col {
+    margin: auto;
+    font-size: 33px;
+}
+
+#shelterInfo .card {
+    height: 38vh;
+    background-color: #1f2a40;
+    color: #dcddde;
+}
+
+#usefulInfo .card-header {
+    color: #dcddde;
+    background-color: #3e4396;
+}
+
+#aboutContainer .card {
+    border: 1px solid #3b4558;
+}
+
+#usefulInfo .list-group-item {
+    background-color: #1f2a40;
+    color: #dcddde;
+    border-bottom: 1px solid #3b4558;
+}
+
+#shelterInfo .shelterName {
+    font-size: 50px;
+}
+
+#shelterInfo svg {
+    font-size: 150px;
+}
