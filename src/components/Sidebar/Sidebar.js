@@ -75,8 +75,13 @@ function Sidebar() {
   // get selected tab when page loaded (added bc if user refreshes on not initial landing page, wrong tab will be selected)
   const location = useLocation()
   function getCurrentSelected() { // TO DO: Make this more effeicent 
-    const currentSelected = location.pathname.slice(1); // remove leading '/'
-    return currentSelected.charAt(0).toUpperCase() + currentSelected.slice(1); // capitalized first letter
+    let currentSelected = location.pathname.slice(1); // remove leading '/'
+    currentSelected = currentSelected.charAt(0).toUpperCase() + currentSelected.slice(1); // capitalized first letter
+    if (currentSelected === '') {
+      return 'Dashboard'
+    } else {
+      return currentSelected
+    }
   }
 
   const [selectedTab, setSelectedTab] = useState(getCurrentSelected())
