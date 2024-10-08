@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useLocation } from "react-router-dom";
 import './Sidebar.css';
 import SidebarItem from './SidebarItem/SidebarItem';
 import UserInfo from './UserInfo/UserInfo';
@@ -70,7 +71,15 @@ const sidebarTitles = [
 ]
 
 function Sidebar() {
-  const [selectedTab, setSelectedTab] = useState('Dashboard')
+
+  // get selected tab when page loaded (added bc if user refreshes on not initial landing page, wrong tab will be selected)
+  const location = useLocation()
+  function getCurrentSelected() { // TO DO: Make this more effeicent 
+    const currentSelected = location.pathname.slice(1); // remove leading '/'
+    return currentSelected.charAt(0).toUpperCase() + currentSelected.slice(1); // capitalized first letter
+  }
+
+  const [selectedTab, setSelectedTab] = useState(getCurrentSelected())
   function handleClickFunc (e) { // update selected tab (to update sidebar item styling)
     setSelectedTab(e.target.innerHTML)
   }
