@@ -48,13 +48,13 @@ function AboutContainer() {
               <h3>Important Information</h3>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Catery extension: *678</li>
-              <li class="list-group-item">Dog extension: *980</li>
-              <li class="list-group-item">Front desk extension: *117</li>
-              <li class="list-group-item">Supervisor Contact Info: 555-555-5555</li>
-              <li class="list-group-item">Paws Hospital Contact Info: 555-555-5555</li>
-              <li class="list-group-item">Emergency Vet Info: 555-555-5555</li>
-              <li class="list-group-item">ASPCA Animal Poison Control Center: 555-555-5555</li>
+              <li class="list-group-item">Catery: *678</li>
+              <li class="list-group-item">Dogs: *980</li>
+              <li class="list-group-item">Front desk: *117</li>
+              <li class="list-group-item">Supervisor: 555-555-1919</li>
+              <li class="list-group-item">Paws Hospital: 555-555-0125</li>
+              <li class="list-group-item">Emergency Vet: 555-555-0122</li>
+              <li class="list-group-item">ASPCA Animal Poison Control Center: 888-426-4435</li>
             </ul>
           </div>
         </div>
